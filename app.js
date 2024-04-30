@@ -12,7 +12,7 @@ if (!count) {
 }
 score.innerText = `Score : ${count}`;
 const calculation = () => {
-    // console.log(operations[randomOperation]);
+   
     // *check random operators
     if (operations[randomOperator] === "+") {
         result = num1 + num2;
